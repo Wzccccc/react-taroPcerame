@@ -16,7 +16,7 @@ export default class Index extends Component<PropsWithChildren> {
   render() {
     return (
       <View className="index">
-        <Text>hahah </Text>
+        <Text>哈哈哈</Text>
       </View>
     );
   }

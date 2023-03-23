@@ -2,7 +2,7 @@
   "miniprogramRoot": "dist/",
   "projectname": "react-wxPcerame",
   "description": "taro+react+ts微信模板",
-  "appid": "touristappid",
+  "appid": "wx8d64ae44735c9b72",
   "setting": {
     "urlCheck": true,
     "es6": false,
@@ -27,5 +27,8 @@
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
+  },
+  "simulatorPluginLibVersion": {
+    "wxext14566970e7e9f62": "2.27.3"
   }
 }
