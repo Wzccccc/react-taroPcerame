@@ -1,9 +1,12 @@
-module.exports = {
-  env: {
-    NODE_ENV: '"development"'
+export const env = {
+  NODE_ENV: '"development"',
+};
+export const defineConstants = {};
+export const mini = {
+  imageUrlLoaderOption: {
+    limit: 10000,
+    mimetype: "image/png",
+    encoding: "base64",
   },
-  defineConstants: {
-  },
-  mini: {},
-  h5: {}
-}
+};
+export const h5 = {};
