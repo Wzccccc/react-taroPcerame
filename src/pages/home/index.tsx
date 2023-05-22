@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Taro from "@tarojs/taro";
-import { View, Text } from "@tarojs/components";
+import { View, Text, Image } from "@tarojs/components";
 import "./index.scss";
 
 const Home = () => {
@@ -17,7 +17,8 @@ const Home = () => {
   });
   return (
     <View className="index">
-      <Text>首页</Text>
+      <Text>首页文字呢</Text>
+      <Image src={require("../../static/images/avtar.jpg")}></Image>
     </View>
   );
 };
